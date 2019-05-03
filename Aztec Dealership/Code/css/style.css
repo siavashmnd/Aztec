@@ -1,0 +1,151 @@
+/* home style */
+
+#home .bg-dark .collapse .navbar-nav .nav-link.active{
+    color:mediumaquamarine;
+}
+
+#home .bg-dark .collapse .navbar-nav .nav-link:hover{
+     color:mediumaquamarine;
+}
+
+
+.underline{
+    width: 7rem;
+    height: .2rem;
+    background-color: mediumaquamarine;
+}
+
+
+
+.brd{
+    border: .2rem solid mediumaquamarine;
+}
+
+
+
+.offset:before{
+    display:block;
+    content:"";
+    height:82px;
+    margin-top:-82px;
+}
+/* navigation style */
+.navbar-brand{
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: .7rem;
+}
+
+.navbar{
+    background-color:rgba(0,0,0,0.6) !important;
+}
+
+.navbar-nav{
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.1rem;
+    font-size:1.2rem;
+}
+
+/* landing style */
+.home-inner{
+    background: url(../image/Porsche-Cayenne_Turbo_Coupe-2020-1600-03.jpg);
+    z-index: -1;
+}
+
+.home-wrap{
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+
+.landing-caption{
+    position: absolute;
+    top:40%;
+    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 0.3rem;
+}
+
+
+.landing-caption h1{
+    font-size: 5rem;
+}
+
+/* brands style */
+
+#brands{
+    font-family:'Nanum Myeongjo', serif; 
+}
+
+
+.carousel-first h1{
+    text-shadow:.2rem .2rem .5rem black;
+}
+
+/* services style */
+
+#services{
+    font-family:'Nanum Myeongjo', serif; 
+}
+
+
+/* offers style */
+
+#offers{
+    font-family:'Nanum Myeongjo', serif;
+}
+
+
+.fixed-design-first{
+    padding-top: 15rem;
+}
+
+.fixed-design-second{
+    padding-top: 15rem;
+}
+
+.fixed-design-first .lead{
+    padding-right: 8rem;
+    padding-left: 8rem;
+}
+.first{
+    background-image: url(../image/Audi-A6_Avant_UK-Version-2019-1600-1e.jpg);
+}
+
+.second{
+    background-image: url(../image/Mercedes-Benz-A35_AMG_4Matic_Sedan-2020-1600-0f.jpg);
+}
+
+.down{
+    height: 6rem;
+}
+
+/* clients style */
+ 
+
+#clients{
+    font-family:'Nanum Myeongjo', serif;
+ }
+
+.line{
+    border-top: 0.1rem solid mediumaquamarine;
+}
+
+ /* style contact */
+
+footer span h1{
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: .9rem;
+    font-size: 6rem;
+}
+
+#contact{
+    font-family:'Nanum Myeongjo', serif;
+}
+
+
+footer a{
+    color:mediumaquamarine;
+}
+
+footer a:hover{
+    color:mediumseagreen;
+}
